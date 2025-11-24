@@ -68,7 +68,7 @@ export function Header() {
             >
               About
             </Link>
-            
+
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -164,12 +164,6 @@ export function Header() {
             >
               Resources
             </Link>
-            <Link
-              to="/blog"
-              className={`hover:text-blue-600 ${isActive('/blog') ? 'text-blue-600' : 'text-slate-700'}`}
-            >
-              Blog
-            </Link>
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
@@ -228,9 +222,6 @@ export function Header() {
               </Link>
               <Link to="/resources" className="text-slate-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>
                 Resources
-              </Link>
-              <Link to="/blog" className="text-slate-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>
-                Blog
               </Link>
               <Link to="/contact" className="text-slate-700 hover:text-blue-600" onClick={() => setMobileMenuOpen(false)}>
                 Contact

@@ -13,8 +13,6 @@ import { DocumentationServicesPage } from './components/pages/DocumentationServi
 import { WhyChooseUsPage } from './components/pages/WhyChooseUsPage';
 import { CaseStudiesPage } from './components/pages/CaseStudiesPage';
 import { ResourcesPage } from './components/pages/ResourcesPage';
-import { BlogPage } from './components/pages/BlogPage';
-import { BlogPostPage } from './components/pages/BlogPostPage';
 import { ContactPage } from './components/pages/ContactPage';
 
 export default function App() {
@@ -35,8 +33,6 @@ export default function App() {
             <Route path="/why-choose-us" element={<WhyChooseUsPage />} />
             <Route path="/case-studies" element={<CaseStudiesPage />} />
             <Route path="/resources" element={<ResourcesPage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/:slug" element={<BlogPostPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>

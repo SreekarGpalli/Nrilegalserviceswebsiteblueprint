@@ -39,9 +39,6 @@ export function Footer() {
                 <Link to="/case-studies" className="text-slate-400 hover:text-white">Case Studies</Link>
               </li>
               <li>
-                <Link to="/blog" className="text-slate-400 hover:text-white">Blog</Link>
-              </li>
-              <li>
                 <Link to="/contact" className="text-slate-400 hover:text-white">Contact</Link>
               </li>
             </ul>
